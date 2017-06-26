@@ -8,7 +8,9 @@
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" type="text/css" href="interface.css" />
+  
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,7 +18,16 @@
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-  <p>Sup dOg</p>
-</body>
+		<button onclick="cookieClick(1)">Click Me!</button>
+		<br />
+		Cookies: <span id="cookies">0</span>
+		<br />
+		<button onclick="buyCursor()">Buy Cursor</button>
+		<br />
+		Cursors: <span id="cursors">0</span>
+		<br />
+		Cursor Cost: <span id="cursorCost">10</span>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+	
 </html>
